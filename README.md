@@ -17,7 +17,7 @@ Com base no vídeo de lançamento do iPhone de 2007, foi elaborada a diagramaç�
 
 ## Diagrama UML
 
-```
+```mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar()
