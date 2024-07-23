@@ -1,4 +1,4 @@
-## Desafio de Programação Orientada a Objetos
+# Desafio de Programação Orientada a Objetos
 
 Neste desafio, fui responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
