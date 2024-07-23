@@ -17,6 +17,7 @@ Com base no vídeo de lançamento do iPhone de 2007, foi elaborada a diagramaç�
 
 ## Diagrama UML
 
+```
 classDiagram
     class ReprodutorMusical {
         +tocar()
@@ -42,7 +43,7 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
-
+```
 ## Minhas redes de contato
 
 <div align="left">
