@@ -1,18 +1,53 @@
-## Getting Started
+## Desafio de Programação Orientada a Objetos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste desafio, fui responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-## Folder Structure
+### Contexto
 
-The workspace contains two folders by default, where:
+Com base no vídeo de lançamento do iPhone de 2007, foi elaborada a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implementada as classes e interfaces no formato de arquivos `.java`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Funcionalidades Modeladas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Reprodutor Musical**
+> - Métodos: `tocar()`,`pausar()` e `selecionarMusica()`.
+2. **Aparelho Telefônico**
+> - Métodos: `ligar(String numero)`, `atender()` e `iniciarCorreioVoz`.
+3. **Navegador na Internet**
+> - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()` e `atualizarPagina()`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Diagrama UML
 
-## Dependency Management
+classDiagram
+    class ReprodutorMusical {
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
+    }
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    class AparelhoTelefonico {
+        +ligar(String ligar)
+        +atender()
+        +iniciarCorreioDeVoz()
+    }
+
+    class NavegadorInternet {
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+
+    class iPhone {
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+
+## Minhas redes de contato
+
+<div align="left">
+  <a href="https://instagram.com/_m.gritti/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://discord.gg/6GkPBx4v" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:dev.murilogritti@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/murilo-gritti" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
